@@ -34,6 +34,10 @@ G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
 SHORT_URL = environ.get("SHORT_URL")
 SHORT_API = environ.get("SHORT_API")
+PM_IMDB = environ.get('PM_IMDB', "True")
+IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
+
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
