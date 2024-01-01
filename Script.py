@@ -195,8 +195,8 @@ Nᴀᴍᴇ - {}"""
 <b>🔘 File Size : {file_size}</b>
 
 ╭─── • ❰ @gtxPrime ❱ • ────➤
-┣ ▫️ @ZCipher
-┣ ▫️ @BlackHarbour
+┣ ▫️ @XCipher
+┣ ▫️ @CipherGround
 ╰─────── • ◆ • ───────➤"""
 
     IMDB_TEMPLATE_TXT = """
